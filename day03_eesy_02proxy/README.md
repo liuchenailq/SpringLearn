@@ -84,7 +84,7 @@
          */
         Producer cglibProducer = (Producer)Enhancer.create(producer.getClass(), new MethodInterceptor() {
             /**
-             * 执行北地阿里对象的任何方法都会经过该方法
+             * 执行被代理对象的任何方法都会经过该方法
              * @param proxy
              * @param method
              * @param args
