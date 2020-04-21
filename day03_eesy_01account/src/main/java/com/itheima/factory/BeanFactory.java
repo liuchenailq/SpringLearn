@@ -12,6 +12,9 @@ import java.lang.reflect.Proxy;
  */
 public class BeanFactory {
 
+    /**
+     * 被代理的对象
+     */
     private IAccountService accountService;
 
     private TransactionManager txManager;
